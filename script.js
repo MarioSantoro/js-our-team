@@ -1,4 +1,4 @@
-const team = [
+const teams = [
     {
         nome : "Wayne Barnett",
         ruolo : "ounder & CEO" ,
@@ -28,5 +28,11 @@ const team = [
         nome : "Barbara Ramos",
         ruolo : "Graphic Designer" ,
         img : " barbara-ramos-graphic-designer.jpg"
-    } ,
-]
+    } 
+];
+
+for(let i = 0; i<teams.length ; i++){
+    const  memberTeam = teams[i];
+    console.log(memberTeam.nome , memberTeam.ruolo , memberTeam.img);
+    console.log("------------");
+}
